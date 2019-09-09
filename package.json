@@ -5,7 +5,7 @@
   "repository": "git@github.com:mattlockyer/composables-998.git",
   "author": "Matt Lockyer <@mattdlockyer>",
   "devDependencies": {
-    "truffle": "^4.1.11",
+    "truffle": "^5.0.35",
     "web3-eth-abi": "^1.0.0-beta.34"
   },
   "scripts": {
