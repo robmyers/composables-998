@@ -13,7 +13,7 @@ interface ERC998ERC721BottomUp {
     event TransferFromParent(address indexed _fromContract, uint256 indexed _fromTokenId, uint256 _tokenId);
 
 
-    function rootOwnerOf(uint256 _tokenId) external view returns (bytes memory rootOwner);
+    function rootOwnerOf(uint256 _tokenId) external view returns (bytes32 rootOwner);
 
     /**
     * The tokenOwnerOf function gets the owner of the _tokenId which can be a user address or another ERC721 token.
