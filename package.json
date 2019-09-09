@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "@0xcert/ethereum-erc721": "^1.10.0",
-    "openzeppelin-solidity": "github:OpenZeppelin/openzeppelin-solidity#release-v2.1.0-solc-0.5"
+    "@openzeppelin/contracts": "^2.3.0"
   }
 }

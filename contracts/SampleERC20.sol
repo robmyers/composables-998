@@ -2,8 +2,8 @@
 
 pragma solidity >=0.4.21 <0.6.0;
 
-import "openzeppelin-solidity/contracts/token/ERC20/ERC20Mintable.sol";
-import "openzeppelin-solidity/contracts/math/SafeMath.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol";
+import "@openzeppelin/contracts/math/SafeMath.sol";
 
 /**
 * @title Contract that will work with ERC223 tokens.
