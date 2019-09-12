@@ -196,7 +196,7 @@ ERC998ERC20TopDown, ERC998ERC20TopDownEnumerable {
     }
 
 
-    function _transferFrom(address _from, address _to, uint256 _tokenId) private {
+    function _transferFrom(address _from, address _to, uint256 _tokenId) internal {
         require(_from != address(0));
         require(tokenIdToTokenOwner[_tokenId] == _from);
         require(_to != address(0));
