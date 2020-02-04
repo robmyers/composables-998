@@ -5,14 +5,14 @@
   "repository": "git@github.com:mattlockyer/composables-998.git",
   "author": "Matt Lockyer <@mattdlockyer>",
   "devDependencies": {
-    "truffle": "^4.1.11",
-    "web3-eth-abi": "^1.0.0-beta.34"
+    "truffle": "^5.0.35",
+    "web3-eth-abi": "^1.2.1"
   },
   "scripts": {
     "test": "truffle test"
   },
   "dependencies": {
     "@0xcert/ethereum-erc721": "^1.10.0",
-    "openzeppelin-solidity": "github:OpenZeppelin/openzeppelin-solidity#release-v2.1.0-solc-0.5"
+    "@openzeppelin/contracts": "^2.3.0"
   }
 }
